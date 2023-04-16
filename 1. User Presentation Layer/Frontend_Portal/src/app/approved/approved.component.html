@@ -1,0 +1,24 @@
+<div class="teachLog">
+    <form #ApproveClaim="ngForm" (ngSubmit)="getForm(ApproveClaim)" class="teachForm" novalidate>
+  
+      <div class="mb-3">
+          <label class="form-label">Approved Value </label>
+          <input type="text" name="ApprovedValue" required pattern="^\d+\.\d{0,2}$" #appValue = "ngModel" ngModel class="form-control pass">
+          <span *ngIf="appValue.invalid && appValue.touched" class="error">Enter valid value</span>
+      </div>
+  
+      <div class="mb-3">
+          <label class="form-label">Approved By</label>
+          <input type="text" name="ApprovedBy" required #approvedBy = "ngModel" ngModel class="form-control pass">
+          <span *ngIf="approvedBy.invalid && approvedBy.touched" class="error">Enter valid Value</span>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Remarks:</label>
+        <input type="text" name="InternalNotes" #approvedBy = "ngModel" ngModel class="form-control pass">
+    </div>
+
+      <button type="submit" [disabled]="ApproveClaim.invalid" class="btn btn-primary btn-sm" style="margin-right: 0.5rem;">Submit</button>
+    </form>
+  </div>
+  

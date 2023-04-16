@@ -1,0 +1,74 @@
+<app-header></app-header>
+<a routerLink="" class="btn btn-info" style="margin-top:5px; margin-left: 1rem;">LogIn</a>
+<h3>Register</h3>
+  <div *ngIf="alert" class="alert alert-danger alert-dismissible fade show" role="alert" style="max-height:10%;width:30%;text-align:center;margin-left:auto;margin-right:auto">
+    <div *ngFor="let item of arr">
+        <h6><strong>-></strong>{{item}}</h6>
+    </div>
+    <button (click)="buttonClose()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+<div class="teachLog">
+  <form #Register="ngForm" (ngSubmit)="getForm(Register)" class="teachForm" novalidate style="margin-top: 35rem;">
+    <div class="mb-3">
+        <label class="form-label">Email </label>
+        <input type="email" name="Email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" #email="ngModel" ngModel class="form-control pass">
+        <span *ngIf="email.invalid && email.touched" class="error">Enter valid password</span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Full Name</label>
+        <input type="text" name="FullName" required maxlength="255" #fullname="ngModel" ngModel class="form-control pass">
+        <span *ngIf="fullname.invalid && fullname.touched" class="error">Enter valid name</span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">PAN</label>
+        <input type="text" name="PAN" required pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" maxlength="10" minlength="10" #pan ="ngModel" ngModel class="form-control pass">
+        <span *ngIf="pan.invalid && pan.touched" class="error">Enter valid PAN number</span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Bank</label>
+        <input type="text" name="Bank" required #bank ="ngModel" ngModel class="form-control pass">
+        <span *ngIf="bank.invalid && bank.touched " class="error">Bank Name is required</span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Account No</label>
+        <input type="text" name="AccountNo" required pattern="[0-9]{12}" #accountno ="ngModel" ngModel class="form-control pass">
+        <span *ngIf="accountno.invalid && accountno.touched" class="error">Enter valid Account Number</span>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Enter Password : </label>
+      <input type="password" name="Password" required #password="ngModel" minlength="8" ngModel class="form-control pass">
+      <span *ngIf="password.invalid && password.touched" class="error">Minimum length is 8 </span>
+      <!-- <br>
+      <input type="checkbox" style="width: 30px;" onclick="myFunction()">Show Password
+      <br> -->
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Confirm Password : </label>
+        <input type="password" name="confirmpassword" required #cnfrmpassword="ngModel" minlength="8" ngModel class="form-control pass">
+        <span *ngIf="cnfrmpassword.touched && cnfrmpassword.invalid" class="error">
+            Minimum length is 8!
+        </span>
+        <span *ngIf="cnfrmpassword.value != password.value" class="error">
+            Passwords do not match!
+        </span>
+      </div>
+    <button type="submit" [disabled]="Register.invalid" class="btn btn-primary btn-sm">Submit</button>
+    <button type="reset" class="btn btn-primary btn-sm">Clear</button>
+  </form>
+</div>
+<script>
+  function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+

@@ -1,0 +1,35 @@
+<app-header></app-header>
+
+<div style="text-align: center;margin-top: 2rem;">
+  <img src="https://i.pinimg.com/736x/01/39/0c/01390cda7dcb829456bac6fbbd48fa7f.jpg" alt="logo" style="width: 10%; height: 5%;margin-left: auto;margin-right: auto;"/>
+</div>
+
+<h2 style="text-align: center; margin-top: 1rem;">Login</h2>
+  <div *ngIf="alert" class="alert alert-danger alert-dismissible fade show" role="alert" style="max-height:10%;width:30%;text-align:center;margin-left:auto;margin-right:auto">
+    <div *ngFor="let item of arr">
+        <strong>{{item}}</strong>
+    </div>
+    <button (click)="buttonClose()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+<div class="teachLog" style="margin-top: 4rem;">
+  <form #LogIn="ngForm" (ngSubmit)="getForm(LogIn)" class="teachForm" novalidate>
+    <div class="mb-3">
+        <label class="form-label">Email </label>
+        <input type="email" name="Email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" #email="ngModel" ngModel class="form-control pass">
+        <span *ngIf="email.invalid && email.touched" class="error">Enter valid Email</span>
+      </div>
+    <div class="mb-3">
+      <label class="form-label">Enter Password : </label>
+      <input type="password" name="Password" required #password="ngModel" minlength="8" ngModel class="form-control pass">
+      <span *ngIf="password.invalid && password.touched" class="error">Minimum length is 8</span>
+      <br>
+    </div>
+    <button type="submit" [disabled]="LogIn.invalid" class="btn btn-outline-primary btn-sm">Submit</button>
+    <button type="reset" class="btn btn-outline-secondary btn-sm">Clear</button>
+  </form>
+</div>
+
+<div style="text-align: center; margin-top: 2.5rem;margin-left: 0.2rem;">
+    <p>Click <a routerLink="/register">here</a> to register!</p>
+</div>

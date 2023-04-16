@@ -1,0 +1,30 @@
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\bin\Debug\net6.0\Business.dll
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.dll
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\ref\Business.dll
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\bin\Debug\net6.0\Data Access.dll
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\bin\Debug\net6.0\Data Access.pdb
+C:\Users\souvikdas02\source\repos\Reimbursement Portal - Rough\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\bin\Debug\net6.0\Business.dll
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\bin\Debug\net6.0\Data Access.dll
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\bin\Debug\net6.0\Data Access.pdb
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.dll
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\souvikdas02\OneDrive - Nagarro\Desktop\MyReimbursement Portal\Business\obj\Debug\net6.0\ref\Business.dll
