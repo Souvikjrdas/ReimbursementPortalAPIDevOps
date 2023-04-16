@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Desktop\\MyReimbursement Portal\\Data Access\\Data Access.csproj": {}
+    "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Documents\\WebApi_DevOps\\ReimbursementPortalAPIDevOps\\Data Access\\Data Access.csproj": {}
   },
   "projects": {
-    "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Desktop\\MyReimbursement Portal\\Data Access\\Data Access.csproj": {
+    "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Documents\\WebApi_DevOps\\ReimbursementPortalAPIDevOps\\Data Access\\Data Access.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Desktop\\MyReimbursement Portal\\Data Access\\Data Access.csproj",
+        "projectUniqueName": "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Documents\\WebApi_DevOps\\ReimbursementPortalAPIDevOps\\Data Access\\Data Access.csproj",
         "projectName": "Data Access",
-        "projectPath": "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Desktop\\MyReimbursement Portal\\Data Access\\Data Access.csproj",
+        "projectPath": "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Documents\\WebApi_DevOps\\ReimbursementPortalAPIDevOps\\Data Access\\Data Access.csproj",
         "packagesPath": "C:\\Users\\souvikdas02\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Desktop\\MyReimbursement Portal\\Data Access\\obj\\",
+        "outputPath": "C:\\Users\\souvikdas02\\OneDrive - Nagarro\\Documents\\WebApi_DevOps\\ReimbursementPortalAPIDevOps\\Data Access\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\souvikdas02\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }
